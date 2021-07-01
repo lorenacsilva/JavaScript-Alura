@@ -39,6 +39,14 @@ if (alturaValida && pesoValido){
     tdImc.textContent = imc.toFixed(2);
 }
 }
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+
+botaoAdicionar.addEventListener("click", function(event){
+    event.preventDefault();
+    console.log("olha só, posso chamar uma função anônima");
+})
+
 /*function mostraMensagem(){ 
     console.log("olha só, posso chamar uma função nomeada");
 }*/
