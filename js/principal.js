@@ -39,3 +39,7 @@ if (alturaValida && pesoValido){
     tdImc.textContent = imc.toFixed(2);
 }
 }
+/*function mostraMensagem(){ 
+    console.log("olha só, posso chamar uma função nomeada");
+}*/
+
